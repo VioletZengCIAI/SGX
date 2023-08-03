@@ -1,0 +1,94 @@
+<!-- @author: Violet(Yafan) Zeng -->
+
+<html>
+  <head>
+    <title>SXG Chatbot
+    </title> 
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  </head>
+  <body>
+    <div id="main">
+        <div id = "header">
+            <div id = "ciai-icon">
+                <img src="pics/ciai_icon.png" alt="CIAI" />
+            </div>
+            <div id = "header-title">
+                <p>AI Agent Assist</p>
+            </div>
+            <div id = "parthenon-icon">
+                <img src="pics/parthenon_icon.png" alt="ciPARTHENON" />
+            </div>
+        </div>
+        <div id = "container">
+            <div id = "container-background">
+                <div id="response-container">
+                    <div id="response-shield">
+                        <div id="response-shield-title">
+                            <span id="shield-title-1">Welcome to&nbsp</span>
+                            <span id="shield-title-2">AI Agent Assist!</span>
+                            <div id="shield-icon">
+                                <img src="pics/Chatbot.png" alt=" " />
+                            </div>
+                        </div>
+                        <div id="response-shield-content">
+                            <p>Our AI-powered chatbot possesses the 
+                                capability to address all your intricate inquiries pertaining to 
+                                <span class="response-content-highlight">life sciences</span> and 
+                                <span class="response-content-highlight">health industry</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div id = "response-page"></div>
+                    <div id = "feedback-div">
+                        <div id = "feedback-header-div">
+                            <img id = "feedback-header-img" src = "pics/Dislike Feedback.png" />
+                            <div id = "feedback-header-text">Provide your feedback</div>
+                            <img id = "feedback-close-img" src = "pics/close.png" />
+                        </div>
+                        <hr id = "feedback-line">
+                        <div id = "feedback-content">
+                            <textarea id = "feedback-input" placeholder="Share what pleased you in the response ?"></textarea>
+                        </div>
+                        <div id = "feedback-submit-div">
+                            <div id = "feedback-options" style="display: none;">
+                                <label class="feedback-option-input">
+                                    <input class="feedback-option-input" id="feedback-option-R" type="checkbox" value="repetitive">
+                                    <span class="feedback-option-input">Information is repetitive</span>
+                                </label>
+                                <label class="feedback-option-input">
+                                    <input class="feedback-option-input" id="feedback-option-O" type="checkbox" value="outdated">
+                                    <span class="feedback-option-input">Information is outdated</span>
+                                </label>
+                                <label class="feedback-option-input">
+                                    <input class="feedback-option-input" id="feedback-option-H" type="checkbox" value="harmful">
+                                    <span class="feedback-option-input">Information is harmful</span>
+                                </label>
+                            </div>
+                            <div id = "feedback-submit">Submit</div>
+                        </div>
+                    </div>
+                </div>
+                <div id = "input-container">
+                    <div id="input-background">
+                        <input id="input-textbox" type="text" placeholder="Enter your question">
+                        <input id="submit-button" type="image" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id = "footnote">
+            <div id = "footnote-parthenon">
+                <span id = "footnote-1"> Powered by </span>
+                <span id = "footnote-2"> ci</span>
+                <span id = "footnote-3">PARTHENON </span>
+            </div>
+            <div id = "footnote-ciai">
+                <span> Copyright 2022 CustomerInsights.AI, Inc </span>
+            </div>
+        </div>     
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
